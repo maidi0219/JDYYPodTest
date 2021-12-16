@@ -1,27 +1,16 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
   - JDYYPodTest (0.1.1)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
-  - JDYYPodTest (from `../`)
+  - JDYYPodTest
 
 SPEC REPOS:
   trunk:
-    - FBSnapshotTestCase
-
-EXTERNAL SOURCES:
-  JDYYPodTest:
-    :path: "../"
+    - JDYYPodTest
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   JDYYPodTest: 772fcf93ea779326d2d8953f3b848bf5ef04e4a6
 
-PODFILE CHECKSUM: 64bc2b2b7a6e7f6d03dd0729d5b5d70da47a7e08
+PODFILE CHECKSUM: 442ece7e1c872dd2bf13c3c923e0f473bf0e5499
 
 COCOAPODS: 1.10.0

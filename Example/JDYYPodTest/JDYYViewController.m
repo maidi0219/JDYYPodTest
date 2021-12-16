@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSString *str = [NSString hmacSHA256WithSecret:@"jkdhfjkj$^@&&*&!" content:@"hello world"];
+    NSLog(@"%@",str);
 }
 
 - (void)didReceiveMemoryWarning
