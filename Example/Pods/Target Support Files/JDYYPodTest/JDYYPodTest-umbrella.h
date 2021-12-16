@@ -11,6 +11,7 @@
 #endif
 
 #import "NSString+Extention.h"
+#import "NMannager.h"
 
 FOUNDATION_EXPORT double JDYYPodTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char JDYYPodTestVersionString[];
