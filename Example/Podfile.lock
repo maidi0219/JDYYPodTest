@@ -1,16 +1,45 @@
 PODS:
-  - JDYYPodTest (0.1.1)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JDYYPodTest (0.1.2):
+    - AFNetworking
 
 DEPENDENCIES:
-  - JDYYPodTest
+  - FBSnapshotTestCase
+  - JDYYPodTest (from `../`)
 
 SPEC REPOS:
   trunk:
-    - JDYYPodTest
+    - AFNetworking
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  JDYYPodTest:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  JDYYPodTest: 772fcf93ea779326d2d8953f3b848bf5ef04e4a6
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JDYYPodTest: d4b9ecb9875eebe1320f6e5f7807b90ff41dcb41
 
-PODFILE CHECKSUM: 442ece7e1c872dd2bf13c3c923e0f473bf0e5499
+PODFILE CHECKSUM: 64bc2b2b7a6e7f6d03dd0729d5b5d70da47a7e08
 
 COCOAPODS: 1.10.0

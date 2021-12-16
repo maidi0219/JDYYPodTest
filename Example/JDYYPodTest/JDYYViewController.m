@@ -8,6 +8,8 @@
 
 #import "JDYYViewController.h"
 #import "NSString+Extention.h"
+#import "NMannager.h"
+
 @interface JDYYViewController ()
 
 @end
