@@ -206,7 +206,12 @@
                                               options:NSRegularExpressionSearch
                                                 range:NSMakeRange(0, self.length)];
 }
-
+- (BOOL)mj_isPureInt
+{
+    NSScanner *scan = [NSScanner scannerWithString:self];
+    int val;
+    return [scan scanInt:&val] && [scan isAtEnd];
+}
 - (NSString *)encodeToPercentEscapeString
 {
     NSString *input = self;
