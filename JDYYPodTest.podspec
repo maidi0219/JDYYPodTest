@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'JDYYPodTest/Classes/*'
+  s.source_files = 'JDYYPodTest/Classes/**/*'
   
 #  s.subspec 'Util' do |ss|
 #      ss.source_files ='JDYYPodTest/Classes/Util/Util.{h,m}'
