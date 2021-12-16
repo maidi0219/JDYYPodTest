@@ -58,8 +58,8 @@
 		A6DE5A1B478949FE0444318D47C1A9CC /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 097C3EB63DA682C772E3AC4E78C5FE57 /* AFSecurityPolicy.m */; };
 		A7E6C236F5C97B35484B553454B609B0 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 068FEA07EC47AFBCE9E70B076A72108E /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AECFCA2598AABAEB044F6C4594F3222F /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = EF4CD4AEE3546FEE0186562BCE6CABAB /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B400C5F1276B3FC400259E28 /* NMannager.h in Headers */ = {isa = PBXBuildFile; fileRef = B400C5EF276B3FC400259E28 /* NMannager.h */; };
-		B400C5F2276B3FC400259E28 /* NMannager.m in Sources */ = {isa = PBXBuildFile; fileRef = B400C5F0276B3FC400259E28 /* NMannager.m */; };
+		B400C5F5276B419F00259E28 /* NMannager.h in Headers */ = {isa = PBXBuildFile; fileRef = B400C5F3276B419F00259E28 /* NMannager.h */; };
+		B400C5F6276B419F00259E28 /* NMannager.m in Sources */ = {isa = PBXBuildFile; fileRef = B400C5F4276B419F00259E28 /* NMannager.m */; };
 		B4658F8495B18BD4EB5D893CAFF3BBBC /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = D6645F3BC4F03E8B58A932228EFEFA0A /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF297B1C409B165D5D9A802954FCBBF /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B83B1CA17424975882DA1066536E112B /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEE572C077EC817632842F334339E5F /* AFImageDownloader.m */; };
@@ -189,8 +189,8 @@
 		A7F17B78CE8736E27A7D4F4C6F1602F0 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
 		A9E77198846D3A44AF8721BAC6039C0F /* Pods-JDYYPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDYYPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AEAA7866F939A6DA08D0B2EC56201919 /* Pods-JDYYPodTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JDYYPodTest_Example.modulemap"; sourceTree = "<group>"; };
-		B400C5EF276B3FC400259E28 /* NMannager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMannager.h; sourceTree = "<group>"; };
-		B400C5F0276B3FC400259E28 /* NMannager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMannager.m; sourceTree = "<group>"; };
+		B400C5F3276B419F00259E28 /* NMannager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMannager.h; sourceTree = "<group>"; };
+		B400C5F4276B419F00259E28 /* NMannager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMannager.m; sourceTree = "<group>"; };
 		B60C4F38EC3E5E3F9F877C4A57D8EA40 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		BD1CB1797BD8D9890D279B489E3DF081 /* JDYYPodTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JDYYPodTest.modulemap; sourceTree = "<group>"; };
 		BF98DE1707F03DD5B18FDD61E08BF3DE /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
@@ -467,15 +467,6 @@
 			path = "Target Support Files/Pods-JDYYPodTest_Example";
 			sourceTree = "<group>";
 		};
-		B400C5EE276B3FA500259E28 /* Unit */ = {
-			isa = PBXGroup;
-			children = (
-				B400C5EF276B3FC400259E28 /* NMannager.h */,
-				B400C5F0276B3FC400259E28 /* NMannager.m */,
-			);
-			path = Unit;
-			sourceTree = "<group>";
-		};
 		B8C39C36A75D516799217CF995963807 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -565,7 +556,8 @@
 		E7DCFF6275CC9620C81E0A81CE7B6343 /* JDYYPodTest */ = {
 			isa = PBXGroup;
 			children = (
-				B400C5EE276B3FA500259E28 /* Unit */,
+				B400C5F3276B419F00259E28 /* NMannager.h */,
+				B400C5F4276B419F00259E28 /* NMannager.m */,
 				DE0B74AA12619FBDA3EB84E4C182265F /* NSString+Extention.h */,
 				2D4456BC951D6E2C3A1BC2A1A4F5E6B6 /* NSString+Extention.m */,
 				54DE89E1E8B1B021CE4AA75CB807AFD1 /* Pod */,
@@ -617,7 +609,6 @@
 				2657AB4F1D04803DABFE7DDF80C0EF7F /* AFURLRequestSerialization.h in Headers */,
 				8D060BB549FA8C46C8A5E230C7E00CFE /* AFURLResponseSerialization.h in Headers */,
 				A7E6C236F5C97B35484B553454B609B0 /* AFURLSessionManager.h in Headers */,
-				B400C5F1276B3FC400259E28 /* NMannager.h in Headers */,
 				E8EB9F2CFC54AFE86B618DB528647311 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
 				40426F061CD9B0B435C690CAFEA2BD00 /* UIButton+AFNetworking.h in Headers */,
 				F191431A32F803DC12F12EF3B4D984BD /* UIImageView+AFNetworking.h in Headers */,
@@ -633,6 +624,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				165094CE87AA1DC7976175842BC8C26A /* JDYYPodTest-umbrella.h in Headers */,
+				B400C5F5276B419F00259E28 /* NMannager.h in Headers */,
 				2DAE49D5EA042CC001B98716E8EE22F4 /* NSString+Extention.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -818,6 +810,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEC2C20C364539ABAA490293892B65B6 /* JDYYPodTest-dummy.m in Sources */,
+				B400C5F6276B419F00259E28 /* NMannager.m in Sources */,
 				53E32A99DF92AC049D918F7D25C78531 /* NSString+Extention.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -842,7 +835,6 @@
 				2E7446308877A2FA6F48A7E545FFB1B1 /* AFNetworkReachabilityManager.m in Sources */,
 				A6DE5A1B478949FE0444318D47C1A9CC /* AFSecurityPolicy.m in Sources */,
 				BBFB85B525E1E77FCB19C84D911205D8 /* AFURLRequestSerialization.m in Sources */,
-				B400C5F2276B3FC400259E28 /* NMannager.m in Sources */,
 				828919193B61FC103B8846F54EF3131C /* AFURLResponseSerialization.m in Sources */,
 				76536A816A576F08FADD3366A2E40094 /* AFURLSessionManager.m in Sources */,
 				FDA522B328C907FBF9B11C64C1A7C624 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
