@@ -7,7 +7,7 @@
 //
 
 #import "JDYYViewController.h"
-
+#import "NSString+Extention.h"
 @interface JDYYViewController ()
 
 @end

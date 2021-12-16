@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JDYYPodTest'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '我是一个简短的pod说明，我什么都没写，哈哈'
 
 # This description is used to generate tags and improve search results.
