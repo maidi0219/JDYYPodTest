@@ -11,6 +11,7 @@
 #endif
 
 #import "NSString+Extention.h"
+#import "UIColor+JDY.h"
 #import "NMannager.h"
 
 FOUNDATION_EXPORT double JDYYPodTestVersionNumber;

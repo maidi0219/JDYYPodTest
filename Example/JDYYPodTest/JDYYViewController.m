@@ -9,7 +9,7 @@
 #import "JDYYViewController.h"
 #import "NSString+Extention.h"
 #import "NMannager.h"
-
+#import "UIColor+JDY.h"
 @interface JDYYViewController ()
 
 @end
@@ -22,6 +22,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     NSString *str = [NSString hmacSHA256WithSecret:@"jkdhfjkj$^@&&*&!" content:@"hello world"];
     NSLog(@"%@",str);
+    self.view.backgroundColor =[UIColor colorWithRGB:0x656565];
 }
 
 - (void)didReceiveMemoryWarning
